@@ -1,0 +1,111 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+.main {
+    height: 80vh;
+    width: 60vh;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+
+.main h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.main .signupText {
+    font-size: 20px;
+    width: 150px;
+    word-wrap: break-word;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    width: 100%;
+}
+
+form input:focus {
+    color: rgb(79, 80, 80);
+    border-bottom: 1px solid aqua;
+}
+
+form input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    height: 1.5rem;
+    background: transparent;
+    row-gap: 2rem;
+}
+
+.eachInput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form button {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    background: white;
+    border: 2px solid aqua;
+    margin-bottom: 2rem;
+}
+
+form button:hover {
+    background-color: aqua;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.checkBox {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.combo{
+    display: flex;align-items: center;
+}
+.SigninLink {
+    text-align: center;
+}
+
+.SigninLink a {
+    text-decoration: none;
+    color: aqua;
+}
+.SigninLink a:hover {
+    color: rgb(33, 194, 186);
+  
+}
+
+.referLinks{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.referLinks a{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: aqua;
+}
+.referLinks a:hover{
+    color: rgb(0, 0, 0);
+}
+
+

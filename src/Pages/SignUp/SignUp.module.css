@@ -1,0 +1,83 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+.rightCol{
+    height: 80vh;
+    width: 60vh;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+
+.rightCol h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.rightCol .signupText {
+    font-size: 20px;
+    width: 150px;
+    word-wrap: break-word;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 100%;
+}
+
+form input:focus{
+    color: rgb(79, 80, 80);
+    border-bottom: 2px solid aqua;
+}
+
+form input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+    height: 1.5rem;
+    background: transparent;
+}
+
+.eachInput {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form button {
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    background: white;
+    border: 2px solid aqua;
+    margin-bottom: 20px;
+}
+form button:hover {
+    background-color: aqua;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.checkBox{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+  
+}
+
+.SigninLink{
+    text-align: center;
+}
+.SigninLink a{
+    text-decoration: none;
+    color: aqua;
+}
